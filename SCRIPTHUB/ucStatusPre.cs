@@ -20,7 +20,7 @@ namespace SCRIPTHUB
         private async void ucStatusPre_Load(object sender, EventArgs e)
         {
             await wvPre.EnsureCoreWebView2Async(null);
-            wvPre.CoreWebView2.Navigate("https://gdlprodsrv.gdl.mex.ibm.com/prim/dmsrv2/zsolt/jade/webstatus/webstatus.php?TC=on");
+            wvPre.CoreWebView2.Navigate("");
         }
 
         private void btnBack_Click(object sender, EventArgs e)

@@ -20,7 +20,7 @@ namespace SCRIPTHUB
         private async void ucStatusDS8K_Load(object sender, EventArgs e)
         {
             await wvDS8K.EnsureCoreWebView2Async(null);
-            wvDS8K.CoreWebView2.Navigate("http://gdlprodsrv.gdl.mex.ibm.com/prodsrv/ivt/status/status_test.php");
+            wvDS8K.CoreWebView2.Navigate("");
         }
 
         private void btnNext_Click(object sender, EventArgs e)
